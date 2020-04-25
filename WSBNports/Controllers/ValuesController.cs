@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WSBNports.Infrastructure;
+using WSBNports.Models;
 
 namespace WSBNports.Controllers
 {
@@ -10,11 +12,16 @@ namespace WSBNports.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        //private NportRepository<Nport> _repository { get; set; }
+
+        
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<ActionResult<IEnumerable<Nport>>> Get()
         {
-            return new string[] { "value1", "value2" };
+            var all = await NportRepository<Nport>.GetItemsAsync(d => d != null);
+            var allList = all.ToList();
+            return all.ToList();
         }
 
         // GET api/values/5

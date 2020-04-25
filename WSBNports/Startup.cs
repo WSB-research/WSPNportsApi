@@ -17,6 +17,7 @@ using Newtonsoft.Json.Serialization;
 using WSBNports.Api.Extensions;
 using WSBNports.Api.Options;
 using WSBNports.Infrastructure;
+using WSBNports.Models;
 
 namespace WSBNports
 {
@@ -63,7 +64,7 @@ namespace WSBNports
 
             //services.AddCustomSwagger();
 
-            services.AddScoped<INportRepository, NportRepository>();
+            //services.AddScoped<INportRepository, NportRepository>();
         }
 
         private static IEdmModel GetEdmModel()
@@ -91,6 +92,7 @@ namespace WSBNports
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            NportRepository<Nport>.Initialize();
         }
     }
 }

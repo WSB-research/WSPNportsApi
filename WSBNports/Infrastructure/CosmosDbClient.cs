@@ -2,6 +2,8 @@
 // Licensed under the MIT license.using System
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Azure.Documents;
@@ -20,6 +22,13 @@ namespace WSBNports.Infrastructure.Data
             _databaseName = databaseName ?? throw new ArgumentNullException(nameof(databaseName));
             _collectionName = collectionName ?? throw new ArgumentNullException(nameof(collectionName));
             _documentClient = documentClient ?? throw new ArgumentNullException(nameof(documentClient));
+        }
+
+        public async Task<DocumentCollection> ReadDocumentCollectionAsync(RequestOptions options = null,
+            CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return await _documentClient.ReadDocumentCollectionAsync(
+                UriFactory.CreateDocumentCollectionUri(_databaseName, _collectionName), options);
         }
 
         public async Task<Document> ReadDocumentAsync(string documentId, RequestOptions options = null,

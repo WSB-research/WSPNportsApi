@@ -2,6 +2,8 @@
 // Licensed under the MIT license.using System
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.Azure.Documents;
@@ -19,6 +21,26 @@ namespace WSBNports.Infrastructure.Data
         protected CosmosDbRepository(ICosmosDbClientFactory cosmosDbClientFactory)
         {
             _cosmosDbClientFactory = cosmosDbClientFactory;
+        }
+
+        public async Task<List<T>> GetAll()
+        {
+            try
+            {
+                var cosmosDbClient = _cosmosDbClientFactory.GetClient(CollectionName);
+                var documents = await cosmosDbClient.ReadDocumentCollectionAsync();
+
+                return JsonConvert.DeserializeObject<List<T>>(documents.ToString());
+            }
+            catch (DocumentClientException e)
+            {
+                if (e.StatusCode == HttpStatusCode.NotFound)
+                {
+                    throw new Exception();
+                }
+
+                throw;
+            }
         }
 
         public async Task<T> GetByIdAsync(string id)

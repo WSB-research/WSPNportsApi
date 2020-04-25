@@ -10,6 +10,9 @@ namespace WSBNports.Infrastructure.Data
 {
     public interface ICosmosDbClient
     {
+        Task<DocumentCollection> ReadDocumentCollectionAsync(RequestOptions options = null,
+           CancellationToken cancellationToken = default(CancellationToken));
+
         Task<Document> ReadDocumentAsync(string documentId, RequestOptions options = null,
             CancellationToken cancellationToken = default(CancellationToken));
 
