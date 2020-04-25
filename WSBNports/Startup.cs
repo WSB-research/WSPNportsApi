@@ -55,7 +55,7 @@ namespace WSBNports
            
 
             // Add CosmosDb. This verifies database and collections existence.
-            services.AddCosmosDb(serviceEndpoint, authKey, databaseName, collectionNames);
+            //services.AddCosmosDb(serviceEndpoint, authKey, databaseName, collectionNames);
 
             services.AddOData();
 

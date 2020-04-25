@@ -13,8 +13,8 @@ namespace WSBNports.Infrastructure
 {
     public class NportRepository<T> where T : class
     {
-        private static readonly string Endpoint = "https://localhost:8081";
-        private static readonly string Key = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
+        private static readonly string Endpoint = "https://wsbresearch.documents.azure.com:443/";
+        private static readonly string Key = "JpbdCthq9Vyctl9Rs5D2UxIGlczXcqpqw56feHrjiMyqugovt2L62qXpvevz9BL99cNG7j72UEpCsfCLXpl5AQ==";
         private static readonly string DatabaseId = "WSBResearch";
         private static readonly string CollectionId = "NportFiles";
         private static DocumentClient client;
