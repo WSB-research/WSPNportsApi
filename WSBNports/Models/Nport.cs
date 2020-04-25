@@ -4,6 +4,7 @@
     using System.Collections.Generic;
 
     using System.Globalization;
+    using Microsoft.Azure.Documents.SystemFunctions;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
     using Newtonsoft.Json.Linq;
@@ -446,7 +447,19 @@
     public partial class InvstOrSecs
     {
         [JsonProperty("invstOrSec", NullValueHandling = NullValueHandling.Ignore)]
-        public object InvstOrSec { get; set; }
+        public dynamic InvstOrSec { get; set; }
+
+        [JsonProperty("invstOrSecArray", NullValueHandling = NullValueHandling.Ignore)]
+        public List<InvstOrSec> InvstOrSecArray
+        {
+            get
+            {
+                if (InvstOrSec is JArray)
+                    return InvstOrSec.ToObject<List<InvstOrSec>>();
+                else
+                    return new List<InvstOrSec> { InvstOrSec.ToObject<InvstOrSec>() };
+            }
+        }
     }
 
     public partial class InvstOrSec
