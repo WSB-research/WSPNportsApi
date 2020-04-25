@@ -13,9 +13,16 @@ namespace WSBNports.Controllers
     public class NportsController : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Nport>>> Get(CancellationToken cancellationToken)
+        public async Task<ActionResult<IEnumerable<Nport>>> Get([FromODataUri]string key, CancellationToken cancellationToken)
         {
-            var all = await NportRepository<Nport>.GetItemsAsync(d => d != null, cancellationToken);
+            var all = await NportRepository<Nport>.GetItemsAsync(cancellationToken, key);
+            return Ok(all);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<string>>> FilerCiks(CancellationToken cancellationToken)
+        {
+            var all = await NportRepository<Nport>.GetFilerCiksAsync(cancellationToken);
             return Ok(all);
         }
     }

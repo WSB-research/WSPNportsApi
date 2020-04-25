@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -9,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OData.Edm;
 using Newtonsoft.Json.Serialization;
 using WSBNports.Api.Options;
+using WSBNports.Controllers;
 using WSBNports.Infrastructure;
 
 namespace WSBNports
@@ -54,7 +56,12 @@ namespace WSBNports
         {
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
 
-            builder.EntitySet<Nport>("Nports").EntityType.HasKey(np => np.Id);
+            var entitySet = builder.EntitySet<Nport>("Nports");
+            entitySet.EntityType.HasKey(np => np.Id);
+
+            var collection = builder.EntityType<Nport>().Collection;
+            var filerCikAction = collection.Function(nameof(NportsController.FilerCiks));
+            filerCikAction.ReturnsCollection<string>();
 
             builder.EnableLowerCamelCase();
             return builder.GetEdmModel();

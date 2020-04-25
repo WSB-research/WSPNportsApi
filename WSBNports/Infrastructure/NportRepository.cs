@@ -7,9 +7,15 @@ using System.Threading.Tasks;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 using Microsoft.Azure.Documents.Linq;
+using Newtonsoft.Json;
 
 namespace WSBNports.Infrastructure
 {
+    public class CikContainer
+    {
+        [JsonProperty("filerCik")]
+        public string FilerCik { get; set; }
+    }
     public class NportRepository<T> where T : class
     {
         private static readonly string Endpoint = "https://wsbresearch.documents.azure.com:443/";
@@ -41,12 +47,30 @@ namespace WSBNports.Infrastructure
             }
         }
 
-        public static async Task<IEnumerable<T>> GetItemsAsync(Expression<Func<T, bool>> predicate, CancellationToken cancellationToken)
+        
+        public static async Task<IEnumerable<string>> GetFilerCiksAsync(CancellationToken cancellationToken)
+        {
+            IDocumentQuery<CikContainer> query = client.CreateDocumentQuery<CikContainer>(
+                UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId),
+                $"SELECT DISTINCT c.filerCik FROM c")
+                .AsDocumentQuery();
+
+            List<CikContainer> results = new List<CikContainer>();
+
+            while (query.HasMoreResults)
+            {
+                cancellationToken.ThrowIfCancellationRequested();
+                results.AddRange(await query.ExecuteNextAsync<CikContainer>());
+            }
+
+            return results.Select(cik => cik.FilerCik);
+        }
+
+        public static async Task<IEnumerable<T>> GetItemsAsync(CancellationToken cancellationToken, string filerCik)
         {
             IDocumentQuery<T> query = client.CreateDocumentQuery<T>(
                 UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId),
-                new FeedOptions { MaxItemCount = -1, EnableCrossPartitionQuery = true, EnableScanInQuery = true })
-                .Where(predicate)
+                new FeedOptions { MaxItemCount = -1, PartitionKey = new PartitionKey(filerCik), EnableLowPrecisionOrderBy=true })
                 .AsDocumentQuery();
 
             List<T> results = new List<T>();
