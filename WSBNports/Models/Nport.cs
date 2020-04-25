@@ -6,12 +6,19 @@
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Newtonsoft.Json.Linq;
     using WSBNports.Models;
 
-    public partial class Nport : Entity
+    public class Nport : Entity
     {
-        [JsonProperty("$", NullValueHandling = NullValueHandling.Ignore)]
-        public NportClass Empty { get; set; }
+        
+        [JsonProperty("filerCik")]
+        public string FilerCik { get; set; }
+        [JsonProperty("documentNumber")]
+        public string DocumentNumber { get; set; }
+        [JsonProperty("link")]
+        public string Link { get; set; }
+
 
         [JsonProperty("headerData", NullValueHandling = NullValueHandling.Ignore)]
         public HeaderData HeaderData { get; set; }
@@ -19,6 +26,20 @@
         [JsonProperty("formData", NullValueHandling = NullValueHandling.Ignore)]
         public FormData FormData { get; set; }
 
+
+        [JsonExtensionData]
+        private IDictionary<string, JToken> properties;
+    }
+
+    public partial class Nport2 : Entity
+    {
+        [JsonProperty("$", NullValueHandling = NullValueHandling.Ignore)]
+        public NportClass Empty { get; set; }
+
+        [JsonProperty("headerData", NullValueHandling = NullValueHandling.Ignore)]
+        public HeaderData HeaderData { get; set; }
+
+        
         [JsonProperty("documents", NullValueHandling = NullValueHandling.Ignore)]
         public string Documents { get; set; }
 
@@ -80,7 +101,7 @@
         public InvstOrSecs InvstOrSecs { get; set; }
 
         [JsonProperty("explntrNotes", NullValueHandling = NullValueHandling.Ignore)]
-        public ExplntrNotes ExplntrNotes { get; set; }
+        public object ExplntrNotes { get; set; }
 
         [JsonProperty("signature", NullValueHandling = NullValueHandling.Ignore)]
         public Signature Signature { get; set; }

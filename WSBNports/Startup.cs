@@ -1,24 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Microsoft.OData;
 using Microsoft.OData.Edm;
 using Newtonsoft.Json.Serialization;
-using WSBNports.Api.Extensions;
 using WSBNports.Api.Options;
 using WSBNports.Infrastructure;
-using WSBNports.Models;
 
 namespace WSBNports
 {
@@ -52,29 +43,18 @@ namespace WSBNports
 
             // Add version support.
             services.AddMvcCore();
-           
-
-            // Add CosmosDb. This verifies database and collections existence.
-            //services.AddCosmosDb(serviceEndpoint, authKey, databaseName, collectionNames);
 
             services.AddOData();
-
-            // Add health check by checking CosmosDb connection. Cache the result for 1 minute.
-            //services.AddHealthChecks(checks =>
-            //{
-            //    checks.AddCosmosDbCheck(serviceEndpoint, authKey, TimeSpan.FromMinutes(1));
-            //});
-
-            //services.AddCustomSwagger();
-
-            //services.AddScoped<INportRepository, NportRepository>();
         }
+
+       
+
 
         private static IEdmModel GetEdmModel()
         {
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
 
-            
+            builder.EntitySet<Nport>("Nports").EntityType.HasKey(np => np.Id);
 
             builder.EnableLowerCamelCase();
             return builder.GetEdmModel();
@@ -101,7 +81,9 @@ namespace WSBNports
                     template: "{controller=Item}/{action=Index}/{id?}");
 
                 routes.EnableDependencyInjection();
-                routes.Select().Filter().OrderBy().Expand().MaxTop(100);
+                routes.Expand().Select().Filter().OrderBy().MaxTop(10000).Count();
+                routes.MapODataServiceRoute("odata", "odata", GetEdmModel());
+
             });
             NportRepository<Nport>.Initialize();
         }

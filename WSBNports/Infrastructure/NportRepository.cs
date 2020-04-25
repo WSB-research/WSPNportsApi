@@ -2,24 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 using Microsoft.Azure.Documents.Linq;
-using WSBNports.Infrastructure.Data;
-using WSBNports.Models;
 
 namespace WSBNports.Infrastructure
 {
     public class NportRepository<T> where T : class
     {
         private static readonly string Endpoint = "https://wsbresearch.documents.azure.com:443/";
-        private static readonly string Key = "JpbdCthq9Vyctl9Rs5D2UxIGlczXcqpqw56feHrjiMyqugovt2L62qXpvevz9BL99cNG7j72UEpCsfCLXpl5AQ==";
+        private static readonly string Key = "VQNe8jjN1aW4KgMehkS5pVqCqVGe8xGZLPuJ2wRd2K7GfZZsz9yYumlqJwHu9NSptR9vsxv5Rbyyrc8evk8tXg==";
         private static readonly string DatabaseId = "WSBResearch";
         private static readonly string CollectionId = "NportFiles";
         private static DocumentClient client;
 
-        
+
+
 
         public static async Task<T> GetItemAsync(string id)
         {
@@ -41,17 +41,19 @@ namespace WSBNports.Infrastructure
             }
         }
 
-        public static async Task<IEnumerable<T>> GetItemsAsync(Expression<Func<T, bool>> predicate)
+        public static async Task<IEnumerable<T>> GetItemsAsync(Expression<Func<T, bool>> predicate, CancellationToken cancellationToken)
         {
             IDocumentQuery<T> query = client.CreateDocumentQuery<T>(
                 UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId),
-                new FeedOptions { MaxItemCount = -1, EnableCrossPartitionQuery= true })
+                new FeedOptions { MaxItemCount = -1, EnableCrossPartitionQuery = true, EnableScanInQuery = true })
                 .Where(predicate)
                 .AsDocumentQuery();
 
             List<T> results = new List<T>();
+
             while (query.HasMoreResults)
             {
+                cancellationToken.ThrowIfCancellationRequested();
                 results.AddRange(await query.ExecuteNextAsync<T>());
             }
 
