@@ -4,7 +4,7 @@
 using Microsoft.Azure.Documents;
 using WSBNports.Models;
 
-namespace TodoService.Infrastructure.Data
+namespace WSBNports.Infrastructure.Data
 {
     public interface IDocumentCollectionContext<in T> where T : Entity
     {

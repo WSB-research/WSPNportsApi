@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 
-namespace TodoService.Infrastructure.Data
+namespace WSBNports.Infrastructure.Data
 {
     public class CosmosDbClient : ICosmosDbClient
     {

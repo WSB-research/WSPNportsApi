@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +11,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.OData;
+using Microsoft.OData.Edm;
+using Newtonsoft.Json.Serialization;
+using WSBNports.Api.Extensions;
+using WSBNports.Api.Options;
+using WSBNports.Infrastructure;
 
 namespace WSBNports
 {
@@ -25,7 +32,48 @@ namespace WSBNports
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            // Bind database options. Invalid configuration will terminate the application startup.
+            var connectionStringsOptions =
+                Configuration.GetSection("ConnectionStrings").Get<ConnectionStringsOptions>();
+            var cosmosDbOptions = Configuration.GetSection("CosmosDb").Get<CosmosDbOptions>();
+            var (serviceEndpoint, authKey) = connectionStringsOptions.ActiveConnectionStringOptions;
+            var (databaseName, collectionData) = cosmosDbOptions;
+            var collectionNames = collectionData.Select(c => c.Name).ToList();
+
+            // Add Mvc.
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddJsonOptions(options =>
+                {
+                    options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+                });
+
+            // Add version support.
+            services.AddMvcCore();
+           
+
+            // Add CosmosDb. This verifies database and collections existence.
+            services.AddCosmosDb(serviceEndpoint, authKey, databaseName, collectionNames);
+
+            // Add health check by checking CosmosDb connection. Cache the result for 1 minute.
+            //services.AddHealthChecks(checks =>
+            //{
+            //    checks.AddCosmosDbCheck(serviceEndpoint, authKey, TimeSpan.FromMinutes(1));
+            //});
+
+            //services.AddCustomSwagger();
+
+            services.AddScoped<INportRepository, NportRepository>();
+        }
+
+        private static IEdmModel GetEdmModel()
+        {
+            ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
+
+            
+
+            builder.EnableLowerCamelCase();
+            return builder.GetEdmModel();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using WSBNports.Interfaces;
 using WSBNports.Models;
 
-namespace TodoService.Infrastructure.Data
+namespace WSBNports.Infrastructure.Data
 {
     public abstract class CosmosDbRepository<T> : IRepository<T>, IDocumentCollectionContext<T> where T : Entity
     {
