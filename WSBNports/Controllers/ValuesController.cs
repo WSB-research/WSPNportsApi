@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Mvc;
 using WSBNports.Infrastructure;
 using WSBNports.Models;
@@ -9,6 +10,7 @@ using WSBNports.Models;
 namespace WSBNports.Controllers
 {
     [Route("api/[controller]")]
+    [EnableQuery(MaxTop=100, MaxExpansionDepth = 10)]
     [ApiController]
     public class ValuesController : ControllerBase
     {
@@ -20,8 +22,8 @@ namespace WSBNports.Controllers
         public async Task<ActionResult<IEnumerable<Nport>>> Get()
         {
             var all = await NportRepository<Nport>.GetItemsAsync(d => d != null);
-            var allList = all.ToList();
-            return all.ToList();
+            
+            return Ok(all);
         }
 
         // GET api/values/5

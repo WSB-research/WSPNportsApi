@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.OData.Builder;
+using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -56,6 +57,8 @@ namespace WSBNports
             // Add CosmosDb. This verifies database and collections existence.
             services.AddCosmosDb(serviceEndpoint, authKey, databaseName, collectionNames);
 
+            services.AddOData();
+
             // Add health check by checking CosmosDb connection. Cache the result for 1 minute.
             //services.AddHealthChecks(checks =>
             //{
@@ -91,7 +94,15 @@ namespace WSBNports
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Item}/{action=Index}/{id?}");
+
+                routes.EnableDependencyInjection();
+                routes.Select().Filter().OrderBy().Expand().MaxTop(100);
+            });
             NportRepository<Nport>.Initialize();
         }
     }
