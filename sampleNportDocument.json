@@ -1,0 +1,3847 @@
+{
+    "id": "1e871ce4-8227-4e22-99e1-1b9fabd65e5b",
+    "filerCik": "0000892538",
+    "documentNumber": "0001752724-20-057691",
+    "link": "https://sec.report/Document/0001752724-20-057691/primary_doc.xml",
+    "headerData": {
+        "submissionType": "NPORT-P",
+        "isConfidential": "false",
+        "filerInfo": {
+            "filer": {
+                "issuerCredentials": {
+                    "cik": "0000892538",
+                    "ccc": "XXXXXXXX"
+                }
+            },
+            "seriesClassInfo": {
+                "seriesId": "S000008089"
+            }
+        }
+    },
+    "formData": {
+        "genInfo": {
+            "regName": "SUNAMERICA SERIES TRUST",
+            "regFileNumber": "811-07238",
+            "regCik": "0000892538",
+            "regLei": "549300YDIAXUNCUXFM44",
+            "regStreet1": "21650 Oxnard Street, 10 Floor",
+            "regStreet2": null,
+            "regCity": "Woodland Hills",
+            "regZipOrPostalCode": "91367",
+            "regPhone": "800-445-7862",
+            "seriesName": "SA JPMorgan Mid-Cap Growth Portfolio",
+            "seriesId": "S000008089",
+            "seriesLei": "5493004Y33I3T16E0412",
+            "repPdEnd": "2020-01-31",
+            "repPdDate": "2020-01-31",
+            "isFinalFiling": "N",
+            "regStateConditional": {
+                "empty": {
+                    "regCountry": "US",
+                    "regState": "US-CA"
+                }
+            }
+        },
+        "fundInfo": {
+            "totAssets": "421224170.54",
+            "totLiabs": "1315265.71",
+            "netAssets": "419908904.83",
+            "assetsAttrMiscSec": "0",
+            "assetsInvested": "0",
+            "amtPayOneYrBanksBorr": "0",
+            "amtPayOneYrCtrldComp": "0",
+            "amtPayOneYrOthAffil": "0",
+            "amtPayOneYrOther": "0",
+            "amtPayAftOneYrBanksBorr": "0",
+            "amtPayAftOneYrCtrldComp": "0",
+            "amtPayAftOneYrOthAffil": "0",
+            "amtPayAftOneYrOther": "0",
+            "delayDeliv": "0",
+            "standByCommit": "0",
+            "liquidPref": "0",
+            "cshNotRptdInCorD": "792.1",
+            "isNonCashCollateral": "N",
+            "curMetrics": null,
+            "creditSprdRiskInvstGrade": null,
+            "creditSprdRiskNonInvstGrade": null,
+            "returnInfo": {
+                "monthlyTotReturns": {},
+                "monthlyReturnCats": null,
+                "othMon1": {
+                    "empty": {
+                        "netRealizedGain": "2357583.81000000",
+                        "netUnrealizedAppr": "23162255.13000000"
+                    }
+                },
+                "othMon2": {
+                    "empty": {
+                        "netRealizedGain": "4203524.48000000",
+                        "netUnrealizedAppr": "1793156.32000000"
+                    }
+                },
+                "othMon3": {
+                    "empty": {
+                        "netRealizedGain": "10446935.26000000",
+                        "netUnrealizedAppr": "875650.93000000"
+                    }
+                }
+            },
+            "mon1Flow": {
+                "empty": {
+                    "redemption": "5078959.88000000",
+                    "reinvestment": "34095998.01000000",
+                    "sales": "1418689.90000000"
+                }
+            },
+            "mon2Flow": {
+                "empty": {
+                    "redemption": "3252466.41000000",
+                    "reinvestment": "0.00000000",
+                    "sales": "1283212.54000000"
+                }
+            },
+            "mon3Flow": {
+                "empty": {
+                    "redemption": "9752803.57000000",
+                    "reinvestment": "0.00000000",
+                    "sales": "2297691.84000000"
+                }
+            }
+        },
+        "invstOrSecs": {
+            "invstOrSecArray": [
+                {
+                    "name": "Anaplan Inc",
+                    "lei": "N/A",
+                    "title": "Anaplan Inc",
+                    "cusip": "03272L108",
+                    "balance": "50900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2931331.00000000",
+                    "pctVal": "0.698087362826",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US03272L1089"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "East West Bancorp Inc",
+                    "lei": "N/A",
+                    "title": "East West Bancorp Inc",
+                    "cusip": "27579R104",
+                    "balance": "43400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1989456.00000000",
+                    "pctVal": "0.473782760288",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US27579R1041"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Okta Inc",
+                    "lei": "549300N8J06I8MRHU620",
+                    "title": "Okta Inc",
+                    "cusip": "679295105",
+                    "balance": "24000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3073200.00000000",
+                    "pctVal": "0.731873024041",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US6792951054"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Tesla Inc",
+                    "lei": "54930043XZGB27CTOV49",
+                    "title": "Tesla Inc",
+                    "cusip": "88160R101",
+                    "balance": "7500.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4879275.00000000",
+                    "pctVal": "1.161984169393",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US88160R1014"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Booz Allen Hamilton Holding Corp",
+                    "lei": "529900JPV47PIUWMA015",
+                    "title": "Booz Allen Hamilton Holding Corp",
+                    "cusip": "099502106",
+                    "balance": "85000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6633400.00000000",
+                    "pctVal": "1.579723583781",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0995021062"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Waste Connections Inc",
+                    "lei": "549300HDLRTPBQU69P29",
+                    "title": "Waste Connections Inc",
+                    "cusip": "94106B101",
+                    "balance": "70300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6770593.00000000",
+                    "pctVal": "1.612395670137",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "CA",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "CA94106B1013"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Avery Dennison Corp",
+                    "lei": "549300PW7VPFCYKLIV37",
+                    "title": "Avery Dennison Corp",
+                    "cusip": "053611109",
+                    "balance": "36900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4842756.00000000",
+                    "pctVal": "1.153287283097",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0536111091"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Global Payments Inc",
+                    "lei": "549300NOMHGVQBX6S778",
+                    "title": "Global Payments Inc",
+                    "cusip": "37940X102",
+                    "balance": "67700.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "13231965.00000000",
+                    "pctVal": "3.151151320631",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US37940X1028"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "MarketAxess Holdings Inc",
+                    "lei": "5493002U1CA1XJOVID83",
+                    "title": "MarketAxess Holdings Inc",
+                    "cusip": "57060D108",
+                    "balance": "8500.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3010530.00000000",
+                    "pctVal": "0.716948358410",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US57060D1081"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Old Dominion Freight Line Inc",
+                    "lei": "5299009TWK32WE417T96",
+                    "title": "Old Dominion Freight Line Inc",
+                    "cusip": "679580100",
+                    "balance": "18100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3551763.00000000",
+                    "pctVal": "0.845841314424",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US6795801009"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Red Rock Resorts Inc",
+                    "lei": "N/A",
+                    "title": "Red Rock Resorts Inc",
+                    "cusip": "75700L108",
+                    "balance": "96800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2372568.00000000",
+                    "pctVal": "0.565019691821",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US75700L1089"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Acadia Healthcare Co Inc",
+                    "lei": "5493005CW985Y9D0NC11",
+                    "title": "Acadia Healthcare Co Inc",
+                    "cusip": "00404A109",
+                    "balance": "55000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1767150.00000000",
+                    "pctVal": "0.420841277637",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US00404A1097"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Alnylam Pharmaceuticals Inc",
+                    "lei": "529900S3ZI14OWRJII50",
+                    "title": "Alnylam Pharmaceuticals Inc",
+                    "cusip": "02043Q107",
+                    "balance": "17800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2043262.00000000",
+                    "pctVal": "0.486596491881",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US02043Q1076"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "FLIR Systems Inc",
+                    "lei": "VOBD35NEPH6WISIRTJ85",
+                    "title": "FLIR Systems Inc",
+                    "cusip": "302445101",
+                    "balance": "45400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2339916.00000000",
+                    "pctVal": "0.557243719550",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US3024451011"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Thor Industries Inc",
+                    "lei": "254900XZO1228PDSG060",
+                    "title": "Thor Industries Inc",
+                    "cusip": "885160101",
+                    "balance": "36100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2906772.00000000",
+                    "pctVal": "0.692238713341",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US8851601018"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Arista Networks Inc",
+                    "lei": "635400H1WKBLOQERUU95",
+                    "title": "Arista Networks Inc",
+                    "cusip": "040413106",
+                    "balance": "15800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3528772.00000000",
+                    "pctVal": "0.840366079263",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0404131064"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Tractor Supply Co",
+                    "lei": "549300OJ9VZHZRO6I137",
+                    "title": "Tractor Supply Co",
+                    "cusip": "892356106",
+                    "balance": "45500.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4229225.00000000",
+                    "pctVal": "1.007176783191",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US8923561067"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "MongoDB Inc",
+                    "lei": "549300TPTG69WKWE1Z37",
+                    "title": "MongoDB Inc",
+                    "cusip": "60937P106",
+                    "balance": "15400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2524214.00000000",
+                    "pctVal": "0.601133715185",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US60937P1066"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Centene Corp",
+                    "lei": "549300Z7JJ4TQSQGT333",
+                    "title": "Centene Corp",
+                    "cusip": "15135B101",
+                    "balance": "101426.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6370567.06000000",
+                    "pctVal": "1.517130736386",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US15135B1017"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Intuit Inc",
+                    "lei": "VI90HBPH7XSFMB9E4M29",
+                    "title": "Intuit Inc",
+                    "cusip": "461202103",
+                    "balance": "13400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3757092.00000000",
+                    "pctVal": "0.894739777314",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US4612021034"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Ross Stores Inc",
+                    "lei": "549300ENZFLPGRDFZQ60",
+                    "title": "Ross Stores Inc",
+                    "cusip": "778296103",
+                    "balance": "45000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5048550.00000000",
+                    "pctVal": "1.202296484291",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US7782961038"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Illumina Inc",
+                    "lei": "SQ95QG8SR5Q56LSNF682",
+                    "title": "Illumina Inc",
+                    "cusip": "452327109",
+                    "balance": "6420.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1862249.40000000",
+                    "pctVal": "0.443488904040",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US4523271090"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Shopify Inc",
+                    "lei": "549300HGQ43STJLLP808",
+                    "title": "Shopify Inc",
+                    "cusip": "82509L107",
+                    "balance": "5700.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2654262.00000000",
+                    "pctVal": "0.632104242008",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "CA",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "CA82509L1076"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "BioMarin Pharmaceutical Inc",
+                    "lei": "NSLL8ITTRR0J5HEMR848",
+                    "title": "BioMarin Pharmaceutical Inc",
+                    "cusip": "09061G101",
+                    "balance": "14000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1169000.00000000",
+                    "pctVal": "0.278393715054",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US09061G1013"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "RingCentral Inc",
+                    "lei": "549300C8EH0H1614VE84",
+                    "title": "RingCentral Inc",
+                    "cusip": "76680R206",
+                    "balance": "17600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3618208.00000000",
+                    "pctVal": "0.861664984567",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US76680R2067"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Xilinx Inc",
+                    "lei": "6EY4K7ZMF9UX1CU6KC79",
+                    "title": "Xilinx Inc",
+                    "cusip": "983919101",
+                    "balance": "48200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4071936.00000000",
+                    "pctVal": "0.969718896923",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US9839191015"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Catalent Inc",
+                    "lei": "N/A",
+                    "title": "Catalent Inc",
+                    "cusip": "148806102",
+                    "balance": "39600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2419560.00000000",
+                    "pctVal": "0.576210690501",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US1488061029"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Medallia Inc",
+                    "lei": "5493009P6W6C5BK60J60",
+                    "title": "Medallia Inc",
+                    "cusip": "584021109",
+                    "balance": "68000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1918960.00000000",
+                    "pctVal": "0.456994357092",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US5840211099"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Fidelity National Information Services Inc",
+                    "lei": "6WQI0GK1PRFVBA061U48",
+                    "title": "Fidelity National Information Services Inc",
+                    "cusip": "31620M106",
+                    "balance": "12823.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1842152.18000000",
+                    "pctVal": "0.438702813589",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US31620M1062"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Hilton Worldwide Holdings Inc",
+                    "lei": "549300HVGPK36ICB0B89",
+                    "title": "Hilton Worldwide Holdings Inc",
+                    "cusip": "43300A203",
+                    "balance": "52966.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5709734.80000000",
+                    "pctVal": "1.359755588491",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US43300A2033"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "FleetCor Technologies Inc",
+                    "lei": "549300DG6RR0NQSFLN74",
+                    "title": "FleetCor Technologies Inc",
+                    "cusip": "339041105",
+                    "balance": "13200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4161036.00000000",
+                    "pctVal": "0.990937784871",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US3390411052"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Cadence Design Systems Inc",
+                    "lei": "GCT7RXJOGLXPV0NXZY22",
+                    "title": "Cadence Design Systems Inc",
+                    "cusip": "127387108",
+                    "balance": "27200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1961392.00000000",
+                    "pctVal": "0.467099405951",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US1273871087"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "KLA Corp",
+                    "lei": "549300H0BF5JCG96TJ81",
+                    "title": "KLA Corp",
+                    "cusip": "482480100",
+                    "balance": "27500.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4557850.00000000",
+                    "pctVal": "1.085437805098",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US4824801009"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Elanco Animal Health Inc",
+                    "lei": "549300SHPNDCE059M934",
+                    "title": "Elanco Animal Health Inc",
+                    "cusip": "28414H103",
+                    "balance": "93600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2892240.00000000",
+                    "pctVal": "0.688777962727",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US28414H1032"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "ServiceNow Inc",
+                    "lei": "549300HJTQM36M0E1G39",
+                    "title": "ServiceNow Inc",
+                    "cusip": "81762P102",
+                    "balance": "10300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3483769.00000000",
+                    "pctVal": "0.829648754748",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US81762P1021"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "S&P Global Inc",
+                    "lei": "Y6X4K52KMJMZE7I7MY94",
+                    "title": "S&P Global Inc",
+                    "cusip": "78409V104",
+                    "balance": "13900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4082847.00000000",
+                    "pctVal": "0.972317317646",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US78409V1044"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Progressive Corp/The",
+                    "lei": "529900TACNVLY9DCR586",
+                    "title": "Progressive Corp/The",
+                    "cusip": "743315103",
+                    "balance": "43500.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3510015.00000000",
+                    "pctVal": "0.835899158037",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US7433151039"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "FTI Consulting Inc",
+                    "lei": "549300K17GM8EQD0FQ48",
+                    "title": "FTI Consulting Inc",
+                    "cusip": "302941109",
+                    "balance": "20800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2497248.00000000",
+                    "pctVal": "0.594711846135",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US3029411093"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Ball Corp",
+                    "lei": "0BGI85ALH27ZJP15DY16",
+                    "title": "Ball Corp",
+                    "cusip": "058498106",
+                    "balance": "83200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6005376.00000000",
+                    "pctVal": "1.430161620990",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0584981064"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Burlington Stores Inc",
+                    "lei": "5299003Z37DVGKKC1W09",
+                    "title": "Burlington Stores Inc",
+                    "cusip": "122017106",
+                    "balance": "18100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3936207.00000000",
+                    "pctVal": "0.937395457615",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US1220171060"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Nordson Corp",
+                    "lei": "14OS6Q5N55N95WM84M53",
+                    "title": "Nordson Corp",
+                    "cusip": "655663102",
+                    "balance": "24700.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4170842.00000000",
+                    "pctVal": "0.993273053280",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US6556631025"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Aptiv PLC",
+                    "lei": "N/A",
+                    "title": "Aptiv PLC",
+                    "cusip": "000000000",
+                    "balance": "25600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2170624.00000000",
+                    "pctVal": "0.516927356155",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "JE",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "JE00B783TY65"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Ingersoll-Rand PLC",
+                    "lei": "549300BURLR9SLYY2705",
+                    "title": "Ingersoll-Rand PLC",
+                    "cusip": "000000000",
+                    "balance": "49400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6581562.00000000",
+                    "pctVal": "1.567378525269",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "IE",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "IE00B6330302"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Veeva Systems Inc",
+                    "lei": "549300YZEXPDB92M2F02",
+                    "title": "Veeva Systems Inc",
+                    "cusip": "922475108",
+                    "balance": "26300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3855843.00000000",
+                    "pctVal": "0.918257020903",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US9224751084"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Sage Therapeutics Inc",
+                    "lei": "5493000JX4BJS9W6CN35",
+                    "title": "Sage Therapeutics Inc",
+                    "cusip": "78667J108",
+                    "balance": "20050.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1328914.00000000",
+                    "pctVal": "0.316476736909",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US78667J1088"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "NVR Inc",
+                    "lei": "529900RWXR4JI3JYTV70",
+                    "title": "NVR Inc",
+                    "cusip": "62944T105",
+                    "balance": "950.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3626121.50000000",
+                    "pctVal": "0.863549559985",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US62944T1051"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Stanley Black & Decker Inc",
+                    "lei": "549300DJ09SMTO561131",
+                    "title": "Stanley Black & Decker Inc",
+                    "cusip": "854502101",
+                    "balance": "26800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4270044.00000000",
+                    "pctVal": "1.016897701116",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US8545021011"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Nasdaq Inc",
+                    "lei": "549300L8X1Q78ERXFD06",
+                    "title": "Nasdaq Inc",
+                    "cusip": "631103108",
+                    "balance": "32600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3796596.00000000",
+                    "pctVal": "0.904147532078",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US6311031081"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "O'Reilly Automotive Inc",
+                    "lei": "549300K2RLMQL149Q332",
+                    "title": "O'Reilly Automotive Inc",
+                    "cusip": "67103H107",
+                    "balance": "25800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "10477380.00000000",
+                    "pctVal": "2.495155468122",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US67103H1077"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Teladoc Health, Inc.",
+                    "lei": "549300I2PVFBC9MFAC61",
+                    "title": "Teladoc Health, Inc.",
+                    "cusip": "87918A105",
+                    "balance": "49600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5044816.00000000",
+                    "pctVal": "1.201407243802",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US87918A1051"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "AMETEK Inc",
+                    "lei": "549300WZDEF9KKE40E98",
+                    "title": "AMETEK Inc",
+                    "cusip": "031100100",
+                    "balance": "56400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5479260.00000000",
+                    "pctVal": "1.304868731521",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0311001004"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Exact Sciences Corp",
+                    "lei": "549300VM3X1FYD4N9Z14",
+                    "title": "Exact Sciences Corp",
+                    "cusip": "30063P105",
+                    "balance": "46100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4300208.00000000",
+                    "pctVal": "1.024081163923",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US30063P1057"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Copart Inc",
+                    "lei": "549300KVYX3JWMYEHU61",
+                    "title": "Copart Inc",
+                    "cusip": "217204106",
+                    "balance": "60900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6178914.00000000",
+                    "pctVal": "1.471489156082",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US2172041061"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Trade Desk Inc/The",
+                    "lei": "549300GXPD31VT3E0P46",
+                    "title": "Trade Desk Inc/The",
+                    "cusip": "88339J105",
+                    "balance": "18000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4845240.00000000",
+                    "pctVal": "1.153878839974",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US88339J1051"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "HEICO Corp",
+                    "lei": "529900O1DTDLCJ7L0I14",
+                    "title": "HEICO Corp",
+                    "cusip": "422806208",
+                    "balance": "40420.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3886383.00000000",
+                    "pctVal": "0.925530026940",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US4228062083"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Fair Isaac Corp",
+                    "lei": "RI6HET5SJUEY30V1PS26",
+                    "title": "Fair Isaac Corp",
+                    "cusip": "303250104",
+                    "balance": "6300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2534994.00000000",
+                    "pctVal": "0.603700938665",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US3032501047"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "CoStar Group Inc",
+                    "lei": "N/A",
+                    "title": "CoStar Group Inc",
+                    "cusip": "22160N109",
+                    "balance": "6400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4179136.00000000",
+                    "pctVal": "0.995248243590",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US22160N1090"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Lululemon Athletica Inc",
+                    "lei": "549300D9GZ4BMLDW5T40",
+                    "title": "Lululemon Athletica Inc",
+                    "cusip": "550021109",
+                    "balance": "27392.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6557370.88000000",
+                    "pctVal": "1.561617485262",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US5500211090"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Garmin Ltd",
+                    "lei": "2549001E0HIPIJQ0W046",
+                    "title": "Garmin Ltd",
+                    "cusip": "000000000",
+                    "balance": "33014.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3200707.30000000",
+                    "pctVal": "0.762238491059",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "CH",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "CH0114405324"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Microchip Technology Inc",
+                    "lei": "5493007PTFULNYZJ1R12",
+                    "title": "Microchip Technology Inc",
+                    "cusip": "595017104",
+                    "balance": "27300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2661204.00000000",
+                    "pctVal": "0.633757457722",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US5950171042"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Take-Two Interactive Software Inc",
+                    "lei": "BOMSTHHJK882EWYX3334",
+                    "title": "Take-Two Interactive Software Inc",
+                    "cusip": "874054109",
+                    "balance": "47792.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5956794.88000000",
+                    "pctVal": "1.418592178322",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US8740541094"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "CBRE Group Inc",
+                    "lei": "52990016II9MJ2OSWA10",
+                    "title": "CBRE Group Inc",
+                    "cusip": "12504L109",
+                    "balance": "76400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4664220.00000000",
+                    "pctVal": "1.110769489846",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US12504L1098"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Zscaler Inc",
+                    "lei": "529900MZ0RTK1BWRNF46",
+                    "title": "Zscaler Inc",
+                    "cusip": "98980G102",
+                    "balance": "28300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1587347.00000000",
+                    "pctVal": "0.378021752275",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US98980G1022"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Fortune Brands Home & Security Inc",
+                    "lei": "54930032LHW54PQUJD44",
+                    "title": "Fortune Brands Home & Security Inc",
+                    "cusip": "34964C106",
+                    "balance": "58000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3985180.00000000",
+                    "pctVal": "0.949058225286",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US34964C1062"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "ResMed Inc",
+                    "lei": "529900T3QE5253CCXF22",
+                    "title": "ResMed Inc",
+                    "cusip": "761152107",
+                    "balance": "32100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5102937.00000000",
+                    "pctVal": "1.215248579228",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US7611521078"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Carlisle Cos Inc",
+                    "lei": "XR64VGX1ZPX6G7ZN7Z11",
+                    "title": "Carlisle Cos Inc",
+                    "cusip": "142339100",
+                    "balance": "23000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3593290.00000000",
+                    "pctVal": "0.855730840348",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US1423391002"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Generac Holdings Inc",
+                    "lei": "529900S2H2AHJHSFFI84",
+                    "title": "Generac Holdings Inc",
+                    "cusip": "368736104",
+                    "balance": "43500.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4506165.00000000",
+                    "pctVal": "1.073129183060",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US3687361044"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Fiserv Inc",
+                    "lei": "GI7UBEJLXYLGR2C7GV83",
+                    "title": "Fiserv Inc",
+                    "cusip": "337738108",
+                    "balance": "93600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "11101896.00000000",
+                    "pctVal": "2.643882011622",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US3377381088"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Jazz Pharmaceuticals PLC",
+                    "lei": "635400GAUMJCLEZRRV50",
+                    "title": "Jazz Pharmaceuticals PLC",
+                    "cusip": "000000000",
+                    "balance": "29646.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4249754.10000000",
+                    "pctVal": "1.012065724521",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "IE",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "IE00B4Q5ZN47"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Synopsys Inc",
+                    "lei": "QG7T915N9S0NY5UKNE63",
+                    "title": "Synopsys Inc",
+                    "cusip": "871607107",
+                    "balance": "39300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5797143.00000000",
+                    "pctVal": "1.380571579530",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US8716071076"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Lyft Inc",
+                    "lei": "549300H7I5VN334XVZ52",
+                    "title": "Lyft Inc",
+                    "cusip": "55087P104",
+                    "balance": "40000.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1899200.00000000",
+                    "pctVal": "0.452288574534",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US55087P1049"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Exelixis Inc",
+                    "lei": "N/A",
+                    "title": "Exelixis Inc",
+                    "cusip": "30161Q104",
+                    "balance": "132900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2285880.00000000",
+                    "pctVal": "0.544375214173",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US30161Q1040"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Insulet Corp",
+                    "lei": "549300TZTYD2PYN92D43",
+                    "title": "Insulet Corp",
+                    "cusip": "45784P101",
+                    "balance": "21800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4230072.00000000",
+                    "pctVal": "1.007378493607",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US45784P1012"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "New York Times Co/The",
+                    "lei": "529900J1WEMMIW7BOH57",
+                    "title": "New York Times Co/The",
+                    "cusip": "650111107",
+                    "balance": "73800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2362338.00000000",
+                    "pctVal": "0.562583449130",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US6501111073"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "First Republic Bank/CA",
+                    "lei": "YWC0TIKBQM2JV8L4IV08",
+                    "title": "First Republic Bank/CA",
+                    "cusip": "33616C100",
+                    "balance": "34200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3792096.00000000",
+                    "pctVal": "0.903075871071",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US33616C1009"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Keysight Technologies Inc",
+                    "lei": "549300GLKVIO8YRCYN02",
+                    "title": "Keysight Technologies Inc",
+                    "cusip": "49338L103",
+                    "balance": "55700.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5179543.00000000",
+                    "pctVal": "1.233492059925",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US49338L1035"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Parker-Hannifin Corp",
+                    "lei": "5493002CONDB4N2HKI23",
+                    "title": "Parker-Hannifin Corp",
+                    "cusip": "701094104",
+                    "balance": "11100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2172159.00000000",
+                    "pctVal": "0.517292911632",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US7010941042"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Proofpoint Inc",
+                    "lei": "529900C5FODDK0WSR085",
+                    "title": "Proofpoint Inc",
+                    "cusip": "743424103",
+                    "balance": "14400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1768464.00000000",
+                    "pctVal": "0.421154202651",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US7434241037"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Bright Horizons Family Solutions Inc",
+                    "lei": "N/A",
+                    "title": "Bright Horizons Family Solutions Inc",
+                    "cusip": "109194100",
+                    "balance": "20200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3307346.00000000",
+                    "pctVal": "0.787634165876",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US1091941005"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Crowdstrike Holdings Inc",
+                    "lei": "549300YBY08K9KM4HX32",
+                    "title": "Crowdstrike Holdings Inc",
+                    "cusip": "22788C105",
+                    "balance": "41700.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2547453.00000000",
+                    "pctVal": "0.606668010775",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US22788C1053"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Dollar General Corp",
+                    "lei": "OPX52SQVOZI8IVSWYU66",
+                    "title": "Dollar General Corp",
+                    "cusip": "256677105",
+                    "balance": "28800.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4418208.00000000",
+                    "pctVal": "1.052182497008",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US2566771059"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "TD Ameritrade Holding Corp",
+                    "lei": "ZI85ER3E6RXD4HPHW309",
+                    "title": "TD Ameritrade Holding Corp",
+                    "cusip": "87236Y108",
+                    "balance": "27600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1310448.00000000",
+                    "pctVal": "0.312079116428",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US87236Y1082"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Vulcan Materials Co",
+                    "lei": "549300Q8LSNHAVWBNI21",
+                    "title": "Vulcan Materials Co",
+                    "cusip": "929160109",
+                    "balance": "41300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5849319.00000000",
+                    "pctVal": "1.392997131691",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US9291601097"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "DexCom Inc",
+                    "lei": "549300YSK3QDSFR5EU59",
+                    "title": "DexCom Inc",
+                    "cusip": "252131107",
+                    "balance": "25300.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "6090975.00000000",
+                    "pctVal": "1.450546756674",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US2521311074"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Gardner Denver Holdings Inc",
+                    "lei": "5299004C02FMZCUOIR50",
+                    "title": "Gardner Denver Holdings Inc",
+                    "cusip": "36555P107",
+                    "balance": "41600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1468896.00000000",
+                    "pctVal": "0.349813014943",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US36555P1075"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Lam Research Corp",
+                    "lei": "549300I4GMO6D34U1T02",
+                    "title": "Lam Research Corp",
+                    "cusip": "512807108",
+                    "balance": "25100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "7485071.00000000",
+                    "pctVal": "1.782546384204",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US5128071082"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Advanced Micro Devices Inc",
+                    "lei": "R2I72C950HOYXII45366",
+                    "title": "Advanced Micro Devices Inc",
+                    "cusip": "007903107",
+                    "balance": "279100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "13117700.00000000",
+                    "pctVal": "3.123939466182",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0079031078"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Splunk Inc",
+                    "lei": "549300XGDSGBP6UEI867",
+                    "title": "Splunk Inc",
+                    "cusip": "848637104",
+                    "balance": "25100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3897026.00000000",
+                    "pctVal": "0.928064624296",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US8486371045"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Spotify Technology SA",
+                    "lei": "549300B4X0JHWV0DTD60",
+                    "title": "Spotify Technology SA",
+                    "cusip": "000000000",
+                    "balance": "31100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4394430.00000000",
+                    "pctVal": "1.046519840244",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "LU",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "LU1778762911"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "MSCI Inc",
+                    "lei": "549300HTIN2PD78UB763",
+                    "title": "MSCI Inc",
+                    "cusip": "55354G100",
+                    "balance": "14400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "4115520.00000000",
+                    "pctVal": "0.980098291001",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US55354G1004"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Slack Technologies Inc",
+                    "lei": "549300VIZRB02KN4IJ45",
+                    "title": "Slack Technologies Inc",
+                    "cusip": "83088V102",
+                    "balance": "34100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "706893.00000000",
+                    "pctVal": "0.168344369902",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US83088V1026"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Chipotle Mexican Grill Inc",
+                    "lei": "N/A",
+                    "title": "Chipotle Mexican Grill Inc",
+                    "cusip": "169656105",
+                    "balance": "3200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2773632.00000000",
+                    "pctVal": "0.660531836333",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US1696561059"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Intercept Pharmaceuticals Inc",
+                    "lei": "N/A",
+                    "title": "Intercept Pharmaceuticals Inc",
+                    "cusip": "45845P108",
+                    "balance": "15200.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1404632.00000000",
+                    "pctVal": "0.334508743168",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US45845P1084"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Paycom Software Inc",
+                    "lei": "254900LSB0HNJUDC6Q18",
+                    "title": "Paycom Software Inc",
+                    "cusip": "70432V102",
+                    "balance": "11100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "3531576.00000000",
+                    "pctVal": "0.841033843145",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US70432V1026"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Concho Resources Inc",
+                    "lei": "SYHS7HRDXLL4I0IQ8776",
+                    "title": "Concho Resources Inc",
+                    "cusip": "20605P101",
+                    "balance": "31600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2394648.00000000",
+                    "pctVal": "0.570277975164",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US20605P1012"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "IHS Markit Ltd",
+                    "lei": "549300HLPTRASHS0E726",
+                    "title": "IHS Markit Ltd",
+                    "cusip": "000000000",
+                    "balance": "72900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5748894.00000000",
+                    "pctVal": "1.369081230208",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "BM",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "BMG475671050"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Agios Pharmaceuticals Inc",
+                    "lei": "529900ONJHY8EOGYT555",
+                    "title": "Agios Pharmaceuticals Inc",
+                    "cusip": "00847X104",
+                    "balance": "35400.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "1725042.00000000",
+                    "pctVal": "0.410813388370",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US00847X1046"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Amphenol Corp",
+                    "lei": "549300D3L3G0R4U4VT04",
+                    "title": "Amphenol Corp",
+                    "cusip": "032095101",
+                    "balance": "57100.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5679737.00000000",
+                    "pctVal": "1.352611705698",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US0320951017"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "FIXED INC CLEARING CORP.REPO",
+                    "lei": "549300H47WTHXPU08X20",
+                    "title": "FIXED INC CLEARING CORP.REPO",
+                    "cusip": "000000000",
+                    "balance": "10563000.00000000",
+                    "units": "PA",
+                    "curCd": "USD",
+                    "valUsd": "10563000.00000000",
+                    "pctVal": "2.515545604891",
+                    "payoffProfile": "Long",
+                    "assetCat": "RA",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "2",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": null,
+                        "other": {
+                            "empty": {
+                                "otherDesc": "Internal Identifier",
+                                "value": "85748R009"
+                            }
+                        }
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": {
+                        "transCat": "Repurchase",
+                        "isTriParty": "N",
+                        "repurchaseRt": "0.25000000",
+                        "maturityDt": "2020-02-03",
+                        "notClearedCentCparty": null,
+                        "repurchaseCollaterals": {
+                            "repurchaseCollateral": {
+                                "principalAmt": "9855000.00000000",
+                                "principalCd": "USD",
+                                "collateralVal": "10778935.81500000",
+                                "collateralCd": "USD",
+                                "invstCat": "UST"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "Marvell Technology Group Ltd",
+                    "lei": "8DF36O58U3QIHUCGZB18",
+                    "title": "Marvell Technology Group Ltd",
+                    "cusip": "000000000",
+                    "balance": "87925.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2113717.00000000",
+                    "pctVal": "0.503375131055",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "BM",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "BMG5876H1051"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "National Vision Holdings Inc",
+                    "lei": "549300JHURCBLI5ROA42",
+                    "title": "National Vision Holdings Inc",
+                    "cusip": "63845R107",
+                    "balance": "84900.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2896788.00000000",
+                    "pctVal": "0.689861054785",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US63845R1077"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Zebra Technologies Corp",
+                    "lei": "PO0I32GKZ3HZMMDPZZ08",
+                    "title": "Zebra Technologies Corp",
+                    "cusip": "989207105",
+                    "balance": "24388.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "5829219.76000000",
+                    "pctVal": "1.388210560183",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US9892071054"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                },
+                {
+                    "name": "Black Knight Inc",
+                    "lei": "549300TUSNXS3BFFML48",
+                    "title": "Black Knight Inc",
+                    "cusip": "09215C105",
+                    "balance": "37600.00000000",
+                    "units": "NS",
+                    "curCd": "USD",
+                    "valUsd": "2516192.00000000",
+                    "pctVal": "0.599223300829",
+                    "payoffProfile": "Long",
+                    "assetCat": "EC",
+                    "issuerCat": "CORP",
+                    "invCountry": "US",
+                    "isRestrictedSec": "N",
+                    "fairValLevel": "1",
+                    "descOthUnits": null,
+                    "identifiers": {
+                        "isin": {
+                            "empty": {
+                                "value": "US09215C1053"
+                            }
+                        },
+                        "other": null
+                    },
+                    "debtSec": null,
+                    "securityLending": {
+                        "isCashCollateral": "N",
+                        "isNonCashCollateral": "N",
+                        "isLoanByFund": "N"
+                    },
+                    "issuerConditional": null,
+                    "derivativeInfo": null,
+                    "currencyConditional": null,
+                    "repurchaseAgrmt": null
+                }
+            ]
+        },
+        "signature": {
+            "ncomDateSigned": "2020-02-27",
+            "ncomNameOfApplicant": "SUNAMERICA SERIES TRUST",
+            "ncomSignature": "Shawn Parry",
+            "ncomSignerName": "Shawn Parry",
+            "ncomTitle": "Assistant Treasurer"
+        }
+    }
+}
