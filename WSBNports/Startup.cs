@@ -35,6 +35,14 @@ namespace WSBNports
             var (databaseName, collectionData) = cosmosDbOptions;
             var collectionNames = collectionData.Select(c => c.Name).ToList();
 
+            // Add Cors.
+            services.AddCors(o => o.AddPolicy("CorsApi", builder =>
+            {
+                builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                           .AllowAnyHeader();
+            }));
+
             // Add Mvc.
             services.AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
@@ -48,9 +56,6 @@ namespace WSBNports
 
             services.AddOData();
         }
-
-       
-
 
         private static IEdmModel GetEdmModel()
         {
@@ -80,6 +85,7 @@ namespace WSBNports
                 app.UseHsts();
             }
 
+            app.UseCors("CorsApi");
             app.UseHttpsRedirection();
             app.UseMvc(routes =>
             {
