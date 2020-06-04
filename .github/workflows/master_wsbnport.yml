@@ -32,7 +32,7 @@ jobs:
       - name: dotnet build and publish
         run: |
           dotnet build --configuration Release
-          dotnet publish -c Release -o '${{ env.DOTNET_ROOT }}/myapp' 
+          dotnet publish --self-contained -c Release -o '${{ env.DOTNET_ROOT }}/myapp' 
           
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using publish profile credentials'
