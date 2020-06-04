@@ -28,11 +28,15 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }} 
       
-      # Run dotnet build and publish
-      - name: dotnet build and publish
-        run: |
+      # Run dotnet build
+      - name: dotnet build
+        run:
           dotnet build --configuration Release
-          dotnet publish -c Release -o '${{ env.DOTNET_ROOT }}/myapp' 
+      
+	# Run dotnet publish
+      - name: dotnet publish
+        run:
+          dotnet publish --self-contained -c Release -o '${{ env.DOTNET_ROOT }}/myapp' 
           
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using publish profile credentials'
