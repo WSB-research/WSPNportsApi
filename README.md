@@ -13,19 +13,19 @@ Here's comprehensive documentation on using OData for querying:
 
 This query fetches the unique/distinct Filer CIK numbers in the database: 
 
-`https://wsbnports.azurewebsites.net/odata/nports/FilerCiks`
+`https://wsbnport.azurewebsites.net/odata/nports/FilerCiks`
 
 This query is a sample used to fetch all NPORT files for the Filer CIK 0001605941:
 
-`https://wsbnports.azurewebsites.net/odata/nports('0001605941')?$count=true`
+`https://wsbnport.azurewebsites.net/odata/nports('0001605941')?$count=true`
 
 This query is a sample/subset of the previous query, fetching all NPORT filings for that Filer where the Series Name contains the word "GAMCO": 
 
-`https://wsbnports.azurewebsites.net/odata/nports('0001605941')?$count=true&$filter=contains(formData/genInfo/seriesName, 'GAMCO')`
+`https://wsbnport.azurewebsites.net/odata/nports('0001605941')?$count=true&$filter=contains(formData/genInfo/seriesName, 'GAMCO')`
 
 This query takes the Filer CIK 0000892538 and filters for filings where they had a holding with the name 'Dollar General Corp'
 
-`https://wsbnports.azurewebsites.net/odata/nports('0000892538')?$count=true&$filter=formData/invstOrSecs/invstOrSecArray/any(x: x/name eq 'Dollar General Corp')`
+`https://wsbnport.azurewebsites.net/odata/nports('0000892538')?$count=true&$filter=formData/invstOrSecs/invstOrSecArray/any(x: x/name eq 'Dollar General Corp')`
 
 ## Schema
 
