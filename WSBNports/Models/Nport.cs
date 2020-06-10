@@ -1099,7 +1099,8 @@
     public partial class RepurchaseCollaterals
     {
         [JsonProperty("repurchaseCollateral", NullValueHandling = NullValueHandling.Ignore)]
-        public RepurchaseCollateral RepurchaseCollateral { get; set; }
+        [JsonConverter(typeof(SingleOrArrayConverter<RepurchaseCollateral>))]
+        public List<RepurchaseCollateral> RepurchaseCollateral { get; set; }
     }
 
     public partial class RepurchaseCollateral
